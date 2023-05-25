@@ -1,7 +1,6 @@
 const mongose = require('mongoose')
 const validator = require('validator')
 
-
 const taskSchema = new mongose.Schema({
     description: {
         type: String,
